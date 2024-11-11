@@ -1,0 +1,21 @@
+### Features and Functionalities
+
+1. **Sign Up**: Allows new users to register by providing details such as name, date of birth, username, password, address, mobile number, Aadhar number, and an initial deposit. This data is securely stored in the database after validating input formats.
+
+2. **Sign In**: Authenticates existing users by verifying their username and password. Only registered users with valid credentials can access their account functionalities.
+
+3. **Deposit Money**: Enables users to add funds to their account by specifying the amount to be deposited. The deposited amount updates the user's balance and records the transaction.
+
+4. **Withdraw Money**: Allows users to withdraw funds, with a check to ensure sufficient balance is available. The system updates the balance and logs the transaction for reference.
+
+5. **View Transactions**: Displays the user's last five transactions, including deposits, withdrawals, and corresponding dates. This feature offers a quick overview of recent account activity.
+
+6. **View Profile**: Shows the user’s account details such as name, username, address, mobile number, Aadhar number, and current balance. This allows users to verify their stored personal information.
+
+7. **Update Account Details**: Enables users to modify specific personal details like name, username, password, phone number, and address. This ensures that users can keep their information current.
+
+8. **Delete Account**: Allows users to permanently delete their account, including associated transaction history. This feature helps users maintain control over their data and opt out if desired.
+
+9. **Log Out**: Provides a logout option to securely exit the session, ensuring account privacy when leaving the system.
+
+These functionalities make the Bank Management System a versatile and secure tool for users to manage their banking needs independently.
