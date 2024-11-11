@@ -1,0 +1,24 @@
+### Bibliography
+
+1. **Python Documentation**  
+   Python Software Foundation. (2024). *Python Official Documentation*. Retrieved from [https://docs.python.org/3/](https://docs.python.org/3/)
+
+2. **MySQL Documentation**  
+   Oracle Corporation. (2024). *MySQL 8.0 Reference Manual*. Retrieved from [https://dev.mysql.com/doc/](https://dev.mysql.com/doc/)
+
+3. **W3Schools**  
+   W3Schools. (2024). *SQL Tutorial*. Retrieved from [https://www.w3schools.com/sql/](https://www.w3schools.com/sql/)
+
+4. **Stack Overflow**  
+   Stack Overflow. (2024). *Python and MySQL Integration Help*. Retrieved from [https://stackoverflow.com/](https://stackoverflow.com/)
+
+5. **GeeksforGeeks**  
+   GeeksforGeeks. (2024). *How to Connect Python with MySQL*. Retrieved from [https://www.geeksforgeeks.org/connect-python-to-mysql/](https://www.geeksforgeeks.org/connect-python-to-mysql/)
+
+6. **Real Python**  
+   Real Python. (2024). *A Guide to Python Databases*. Retrieved from [https://realpython.com/python-sql-libraries/](https://realpython.com/python-sql-libraries/)
+
+7. **Class 12 Introduction to Python Book**  
+   *Introduction to Python*. (2024). National Council of Educational Research and Training (NCERT). Retrieved from [https://ncert.nic.in/](https://ncert.nic.in/)
+
+These sources were instrumental in developing the Bank Management System, providing insights into Python programming, MySQL database integration, and handling user inputs. The Class 12 book on Python served as a foundation for understanding core concepts in Python and database interactions.
