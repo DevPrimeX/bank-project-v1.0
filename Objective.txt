@@ -1,0 +1,5 @@
+### Objective
+
+The primary objective of the Bank Management System is to create a secure and efficient platform for managing bank accounts and transactions using Python and MySQL. The system aims to provide users with functionalities such as account creation, login authentication, money deposits, withdrawals, and transaction history tracking. By integrating Python with MySQL, the project ensures that user data is stored securely in a relational database, allowing for easy data retrieval and updates.
+
+The system also focuses on providing a user-friendly interface with simple navigation options, enabling users to manage their accounts with minimal effort. It includes essential features like profile management, password validation, and the ability to delete or update account information. Through the application of data validation techniques, the system ensures that only valid inputs are accepted, enhancing its security and reliability. The project aims to demonstrate the practical use of Python and SQL in developing real-world banking applications.
