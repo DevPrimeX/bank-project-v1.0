@@ -1,0 +1,36 @@
+### Types of Functions Used in the Bank Management System
+
+The Bank Management System project has a variety of functions, each designed for specific tasks. Here’s a breakdown of the main types:
+
+1. **Database Management Functions**
+   - **`create_tables()`**: Sets up the database by creating `bank` and `transaction` tables if they don’t exist. It prepares the structure for user and transaction data storage.
+
+2. **Main Menu Function**
+   - **`main_menu()`**: Provides a simple navigation menu with options for signing up or signing in and directs the user accordingly.
+
+3. **Validation Functions**
+   - **`validate_name(name)`**: Ensures no special characters are in the name.
+   - **`validate_username(username)`**: Checks that the username has no special characters.
+   - **`validate_password(password)`**: Ensures the password meets requirements (length, uppercase, lowercase, number, and special character).
+
+4. **User Registration and Login Functions**
+   - **`sign_up()`**: Collects and validates new user data (name, username, password, DOB, address, deposit). Stores data in the `bank` table.
+   - **`sign_in()`**: Verifies user credentials against the database to allow login.
+
+5. **Banking Transaction Functions**
+   - **`deposit_money(username)`**: Allows users to deposit money, updating their balance and recording the transaction.
+   - **`withdraw_money(username)`**: Enables users to withdraw money if sufficient funds are available, updating balance and recording the transaction.
+
+6. **Account Information Functions**
+   - **`view_transactions(username)`**: Shows the last five transactions, providing recent account activity.
+   - **`view_profile(username)`**: Displays account details, including personal info and balance.
+
+7. **Account Management Functions**
+   - **`update_account(username)`**: Lets users update personal details like name, password, phone, and address.
+   - **`delete_account(username)`**: Deletes the user’s account and transaction history permanently.
+
+8. **System Navigation Functions**
+   - **`user_menu(username)`**: Provides post-login options for banking tasks like withdrawals, deposits, viewing profile, and updating account.
+   - **`main()`**: The main entry point, calling `create_tables()` to set up the database and handling initial user choices.
+
+Each function focuses on one task, making the system modular and easy to manage.
