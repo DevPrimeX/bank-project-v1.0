@@ -1,0 +1,11 @@
+### System Architecture
+
+The Bank Management System follows a client-server architecture, where the client interface interacts with the backend server for data processing and storage. The system is composed of three main layers:
+
+1. **User Interface (UI)**: The front-end interface provides a simple text-based menu for users to interact with, allowing them to perform tasks like account creation, login, deposit, withdrawal, and view transactions.
+
+2. **Application Logic**: This layer contains Python functions that handle the core logic, such as user authentication, data validation, account management, and transaction processing. It acts as the intermediary between the UI and the database.
+
+3. **Database Layer**: MySQL is used to store and manage user data, including account details and transaction history. The application interacts with the database through SQL queries to retrieve, update, or delete information.
+
+This layered approach ensures separation of concerns, making the system modular, scalable, and easier to maintain.
