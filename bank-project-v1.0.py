@@ -1,4 +1,3 @@
-# officially Bank project made by Naresh 
 
 import datetime as date
 import mysql.connector as sql
@@ -41,7 +40,7 @@ def main_menu():
     while True:
         print("\n")
         print("___________________________________________________________________________")
-        print("*******************  Welcome To Norace Bank Of India  *******************")
+        print("*******************  Welcome To Central Bank Of India  *******************")
         print("____________________________________________________________________________")
         print("Press 1 to for Sign Up ")
         print("Press 2 to for Sign In  ")
@@ -162,7 +161,7 @@ def user_menu(username):
     while True:
         print("\n")
         print("___________________________________________________________________________")
-        print("*************** Welcome To Norace Bank Of India : *************************")
+        print("*************** Welcome To Central Bank Of India : *************************")
         print("___________________________________________________________________________")
         print("\n")
         print("Press 1 To Withdraw Money")
@@ -196,7 +195,7 @@ def user_menu(username):
             break
         elif choice == 7:
             print("_____________________________________________________________________________")
-            print("************* Thanks For Choosing Norace Bank Of India *****************")
+            print("************* Thanks For Choosing Central Bank Of India *****************")
             print("____________________________________________________________________________")
             break
 
